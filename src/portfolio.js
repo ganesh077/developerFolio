@@ -126,24 +126,25 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "ITM Universe Vadodara",
+      logo: require("./assets/images/College.png"),
+      subHeader: "Bachelor of Engineering (BE), Computer science & engineering",
+      duration: "September 2013 - September 2017",
+      desc: "Grade: 7.88 CGPA"
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+      schoolName: "Humber College",
+      logo: require("./assets/images/humber.jpg"),
+      subHeader: "Enterprise Software Development",
+      duration: "September 2021 - April 2022",
+      desc: "Grade: 84.2% (HONORS)"
+    },
+    {
+      schoolName: "Humber College",
+      logo: require("./assets/images/humber.jpg"),
+      subHeader: "Cloud Computing",
+      duration: "September 2022 - April 2023",
+      desc: "Grade: 90.3% (HONORS)"    }
   ]
 };
 
@@ -174,10 +175,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Software Associate",
+      company: "Glassbeam, Inc",
       companylogo: require("./assets/images/gb.png"),
-      date: "June 2018 – Present",
+      date: "May 2018 – Feb 2021",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -185,17 +186,17 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      role: "Front-End Developer Intern",
+      company: "Avetti",
+      companylogo: require("./assets/images/images.png"),
+      date: "Jan 2022 – Apr 2022",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      role: "Front-end/Cloud Developer Intern",
+      company: "Humber",
+      companylogo: require("./assets/images/humber.jpg"),
+      date: "Jan 2023 – Apr 2023",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
