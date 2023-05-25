@@ -134,14 +134,14 @@ const educationInfo = {
     },
     {
       schoolName: "Humber College",
-      logo: require("./assets/images/humber.jpg"),
+      logo: require("./assets/images/humber2.png"),
       subHeader: "Enterprise Software Development",
       duration: "September 2021 - April 2022",
       desc: "Grade: 84.2% (HONORS)"
     },
     {
       schoolName: "Humber College",
-      logo: require("./assets/images/humber.jpg"),
+      logo: require("./assets/images/humber2.png"),
       subHeader: "Cloud Computing",
       duration: "September 2022 - April 2023",
       desc: "Grade: 90.3% (HONORS)"    }
@@ -193,9 +193,9 @@ const workExperiences = {
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Front-end/Cloud Developer Intern",
+      role: "Cloud Developer Intern",
       company: "Humber",
-      companylogo: require("./assets/images/humber.jpg"),
+      companylogo: require("./assets/images/humber.png"),
       date: "Jan 2023 – Apr 2023",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
